@@ -1,4 +1,5 @@
 # README
 
-##Sample App, ref
-https://www.railstutorial.org/book/frontmatter
+
+[Sample App](https://www.railstutorial.org/book/frontmatter)  <br>
+[Ruby on Rails](https://github.com/rails)
