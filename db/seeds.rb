@@ -5,3 +5,9 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+#
+users = User.order(:created_at).take(2)
+50.times do
+  content = "test posts"
+  users.each { |user| user.microposts.create!(content: content) }
+end
